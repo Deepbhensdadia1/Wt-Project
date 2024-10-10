@@ -1,0 +1,128 @@
+.quantity {
+    border: 1px solid #ddd;
+    width: 56px;
+    padding: 10px;
+    text-align: center;
+    width: 56px;
+    min-height: 35px;
+    border-radius: 0;
+    margin: 0 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.product_quantity {
+    cursor: pointer;
+}
+
+.product_remove {
+    cursor: pointer;
+}
+
+.product_quantity .FontAwesomeIcon {
+    color: red;
+}
+
+.wishlist-items {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.table_desc {
+    border: 1px solid #ededed;
+}
+
+.table_page {
+    position: relative;
+    z-index: 1;
+    overflow-x: auto;
+    width: 100%;
+    display: block;
+}
+
+.table_page thead {
+    background-color: #ededed;
+    /* background-color: #f79837; */
+}
+
+.table_page thead tr th {
+    padding: 10px;
+    text-align: center;
+}
+
+.table_page table tbody tr td.product_remove {
+    min-width: 100px;
+    font-size: 20px;
+}
+.table-responsive table tbody tr td {
+    border-right: 1px solid #ededed;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.coupon_code {
+    border: 1px solid #ededed;
+}
+
+.coupon_code h3 {
+    /* color: #fff; */
+    line-height: 36px;
+    padding: 5px 15px;
+    background-color: #ededed;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.coupon_inner {
+    padding: 10px 20px 25px;
+}
+
+.cart_subtotal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart_subtotal .cart_amount {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.checkout_btn {
+    text-align: right;
+}
+
+.checkout_btn a {
+    display: inline;
+    display: initial;
+    font-size: 12px;
+}
+
+.coupon_inner a {
+    text-align: right;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ededed;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.coupon_inner a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+
+.theme-btn-one {
+    padding: 12px 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 13px;
+}

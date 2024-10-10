@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.banner {
+  background-image: url(/src/assets/Images/Home-hero.jpg);
+  padding: 200px 0;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-text h1 {
+  font-size: 150px;
+  text-transform: uppercase;
+  font-weight: 100;
+  line-height: 150px;
+}
+
+.banner-text h1 span {
+  display: block;
+  color: #fff;
+  font-weight: 700;
+}
+.banner-text{
+  padding-bottom: 180px;
+  padding-left: 20px;
+}
+.banner-text h3 {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #f3f3f3;
+}
+
+.hero-image img {
+  position: absolute;
+  top: -100px;
+  left: 0;
+}
+
+.hero-button {
+  padding: 16px 42px;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: white;
+  background-color: black;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.hero-button:hover {
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: black;
+  background-color: white;
+  font-weight: 700;
+}
+
+.images-section {
+  padding-top: 100px;
+}
+
+.products {
+  position: relative;
+  overflow: hidden;
+}
+
+.products img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.img-zoom-hover {
+  transition: transform 1s, filter 0.5s ease-out;
+}
+
+.image-text {
+  position: absolute;
+  left: 40px;
+  padding: 20px;
+  top: 50%;
+  width: 50%;
+  transform: translateY(-50%);
+  padding: 20px;
+}
+
+.out {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 22px;
+  color: #f79837;
+}
+
+.image-text h4 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.image-text h2 {
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.shop-button {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+  border-radius: 0;
+  padding: 10px 16px;
+  color: white;
+  background-color: black;
+  transition: 0.5s;
+}
+
+.shop-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.image-text-products {
+  position: absolute;
+  left: 24%;
+  text-align: center;
+  transform: translateY(-50%);
+  width: 50%;
+  top: 75%;
+}
+
+.image-text-products h4 {
+  font-weight: 800;
+}
+
+.out {
+  padding: 5px 0;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+/* products-section */
+.top-seller {
+  padding-top: 50px;
+}
+
+.seller-header {
+  text-align: center;
+}
+
+.seller-header h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  position: relative;
+}
+
+.seller-header p {
+  padding-top: 5px;
+  color: #777c87;
+}
+
+/* Top Offers Section */
+.offers {
+  background-image: url(/src/assets/Images/offer-banner.b01027d.png);
+  background-size: cover;
+  background-position: 50%;
+  padding: 115px 0;
+}
+
+.offers-text h5 {
+  color: #f79837;
+  font-size: 18px;
+}
+
+.offers-text h2 {
+  color: #ffffff;
+  font-size: 36px;
+}
+
+.offers-text p {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.shop {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: inline-block;
+  border-radius: 0;
+  background-color: white;
+  padding: 16px 35px;
+  border: none;
+  transition: 0.4s;
+}
+
+.shop:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Tshirt-Collection-section */
+.tshirt-collection {
+  background-image: url(/src/assets/Images/men-shirt.png);
+  background-size: cover;
+  padding: 140px 0;
+  background-position: 50%;
+}
+
+.collection-timer {
+  display: flex;
+}
+
+.collection-timer > ul {
+  list-style: none;
+  padding: 0;
+}
+
+.collection-timer ul li:first-child {
+  margin-top: 0;
+}
+
+.collection-timer > ul > li {
+  border: 1px solid #c5c5c5;
+  width: 100px;
+  height: 70px;
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 30px;
+  font-size: 14px;
+  list-style: none !important;
+  color: #545454;
+}
+
+.collection-timer > ul > li span {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  color: #545454;
+}
+
+.collection-text > ul > li:first-child {
+  margin-top: 0;
+}
+
+.collection-text {
+  padding-left: 60px;
+}
+
+.collection-text h2 {
+  font-size: 40px;
+  line-height: 55px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.collection-text p {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #777c87;
+  font-size: 16px;
+}
+
+.products-wrap img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.content {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 15px 0;
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  background-color: #fff;
+}
+
+.content a {
+  text-decoration: none;
+  color: #1d1d1d;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  font-size: 16px;
+  transition: 0.4s;
+}
+
+.content a:hover {
+  color: #f79837;
+}
+
+@media screen and (max-width: 767px) {
+  .banner {
+    padding: 150px 0;
+    background-position: 79%;
+  }
+  .banner-text h1 {
+    font-size: 72px;
+    line-height: 76px;
+  }
+  .image-text {
+    left: 20px;
+    top: 90px;
+  }
+  .banner-text {
+    position: relative;
+    z-index: 9;
+    top: 55px;
+    padding-left: 10px;
+  }
+  .hero-image img {
+    position: absolute;
+    top: -550px;
+    right: 0;
+    width: 100%;
+    height: auto;
+  }
+  .tshirt-collection {
+    padding: 80px 0;
+    background-position: 95%;
+  }
+  .collection-timer {
+    display: inherit;
+  }
+  .collection-timer ul {
+    display: flex;
+  }
+  .collection-timer > ul > li {
+    padding-top: 0;
+  }
+  .offers-text h2 {
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: left;
+  }
+  .collection-text {
+    padding-left: 10px;
+    padding-top: 30px;
+  }
+  .offers {
+    padding-top: 60px;
+    background-position: 45%;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+  }
+  .offers-text h2 {
+    text-align: center;
+    font-size: 36px;
+  }
+}
